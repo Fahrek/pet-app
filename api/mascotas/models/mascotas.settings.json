@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mascotas",
+  "info": {
+    "name": "mascotas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "celular": {
+      "type": "integer"
+    },
+    "vacunado": {
+      "type": "boolean"
+    }
+  }
+}
